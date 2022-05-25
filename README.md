@@ -8,13 +8,6 @@
 ![Coming soon]()
 
 
-#  Math-magicians
-
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:  Make simple calculations. Read a random math-related quote.
-
-![Coming soon]()
-
-
 Additional description about the project and its features.
 
 ## Built With
@@ -23,11 +16,6 @@ Additional description about the project and its features.
 - CSS
 - JAVASCRIPT
 - REACT
-
-
-## Live Demo
-
-[Live Demo Link coming soon]
 
 
 ## Live Demo
@@ -47,11 +35,6 @@ To get a local copy up and running follow these simple example steps.
 ~~~ 
 git clone git@github.com:mandelatuks/Math-magicians.git
 cd Math-magicians
-
-```
-
-- build project
-
 ~~~
 - build project
 ```
@@ -61,10 +44,6 @@ npm run build
 ```
 npm start
 ```
-### Environment Prerequisites
-Web Browser
-
-Code editor: Vscode or any code editor of your choice
 
 ### Environment Prerequisites
 
