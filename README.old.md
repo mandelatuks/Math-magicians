@@ -1,5 +1,6 @@
 # Math-magicians
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:  Make simple calculations. Read a random math-related quote.
+
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
 
 ## Built With
 
@@ -7,6 +8,7 @@
 - CSS
 - JAVASCRIPT
 - REACT
+
 ## Live Demo
 
 [Live Demo Link](https://ogaga01.github.io/Ogaga-Nelson-JavaScript-Capstone/dist/)
@@ -42,6 +44,7 @@ npm start
 ```
 
 ## Authors
+
 👤 **Mandela Tumukunde**
 
 - GitHub: [@mandelatuks](https://github.com/mandelatuks)
@@ -61,9 +64,11 @@ Special thanks to the following contributors:
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
