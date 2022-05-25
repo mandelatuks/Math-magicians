@@ -28,7 +28,7 @@ export class Calculator extends Component {
         <button type="button">2</button>
         <button type="button">3</button>
         <button type="button" className="sideNumber">+</button>
-        <button type="button" className="Two-box">0</button>
+        <button type="button" className="Two-boxes">0</button>
         <button type="button">.</button>
         <button type="button" className="sideNumber">=</button>
       </div>
