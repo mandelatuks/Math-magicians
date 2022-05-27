@@ -1,14 +1,13 @@
 /* eslint-disable react/state-in-constructor */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
-import './App.css';
-import { Calculator } from './components/Calculator';
+import React from 'react';
+import Calculator from './components/Calculator';
 import calculate from './logic/calculate';
 
-export class App extends Component {
+export default class App extends React.Component {
   state = {
-    total: '0',
+    total: 0,
     next: null,
     operation: null,
   };
@@ -18,7 +17,6 @@ export class App extends Component {
   };
 
   render() {
-    // console.log(this.state);
     return (
       <div className="App">
         <Calculator
@@ -31,5 +29,3 @@ export class App extends Component {
     );
   }
 }
-
-export default App;

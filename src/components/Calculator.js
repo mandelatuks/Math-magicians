@@ -1,21 +1,25 @@
-import React, { Component } from 'react';
+/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
+import React from 'react';
+import '../App.css';
+import Buttons from './Buttons';
+import Output from './Output';
 
-export class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
+// eslint-disable react/prefer-stateless-function
+export default class Calculator extends React.Component {
   render() {
     return (
-      <div className="calculator-flex">
-        <div className="output">
-          <div className="operand"> 0</div>
-        </div>
-
+      <div className="calculator-grid">
+        <Output
+          total={this.props.total}
+          operation={this.props.operation}
+          next={this.props.next}
+        />
+        <Buttons
+          clickHandler={this.props.clickHandler}
+        />
       </div>
     );
   }
 }
-
-export default Calculator;
