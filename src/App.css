@@ -28,8 +28,8 @@ body {
 }
 
 :is(.calculator-grid > .btn-subgrid > button:hover, .calculator-grid
-    > .btn-subgrid
-    > button:focus) {
+> .btn-subgrid
+> button:focus) {
   background-color: rgba(255, 255, 255, 0.92);
 }
 
