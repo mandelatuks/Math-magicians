@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mandelatuks.github.io/math-magicians/static/css/main.285630a5.css",
+    "main.js": "/mandelatuks.github.io/math-magicians/static/js/main.41128a55.js",
+    "index.html": "/mandelatuks.github.io/math-magicians/index.html",
+    "main.285630a5.css.map": "/mandelatuks.github.io/math-magicians/static/css/main.285630a5.css.map",
+    "main.41128a55.js.map": "/mandelatuks.github.io/math-magicians/static/js/main.41128a55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.285630a5.css",
+    "static/js/main.41128a55.js"
+  ]
+}
