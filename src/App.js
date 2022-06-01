@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Calculators from './pages/Calculators,';
 import Quote from './pages/Quote';
 
-export default class App extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = '';
@@ -33,3 +33,4 @@ export default class App extends React.Component {
     );
   }
 }
+export default App;
