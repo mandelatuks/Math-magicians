@@ -16,10 +16,12 @@ export default class App extends React.Component {
       <div className="App">
 
         <nav>
-          <h1>Math Magicians</h1>
-          <Link to="/">Home</Link>
-          <Link to="/calculator">Calculator</Link>
-          <Link to="/quotes">Quote</Link>
+          <h1 className="logo">Math Magicians</h1>
+          <div className="links">
+            <Link to="/">Home</Link>
+            <Link to="/calculator">Calculator</Link>
+            <Link to="/quotes">Quote</Link>
+          </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />

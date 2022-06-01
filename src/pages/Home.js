@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Home = () => (
-  <div>
-    <h1>Welcome to our page!</h1>
+  <div className="home-content">
+    <h2>Welcome to our page!</h2>
     <section>
       <p>
         Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa
