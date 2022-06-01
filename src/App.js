@@ -1,5 +1,8 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import Calculators from './pages/Calculators,';
+import Quote from './pages/Quote';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -9,8 +12,21 @@ export default class App extends React.Component {
 
   render() {
     return (
+
       <div className="App">
-        <Calculator />
+
+        <nav>
+          <h1>Math Magicians</h1>
+          <Link to="/">Home</Link>
+          <Link to="/calculator">Calculator</Link>
+          <Link to="/quotes">Quote</Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculators />} />
+          <Route path="/quotes" element={<Quote />} />
+        </Routes>
+
       </div>
     );
   }
