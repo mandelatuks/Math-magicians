@@ -5,6 +5,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(9, 116, 166);
+  color: #fff;
 }
 
 .calculator-grid {
@@ -77,11 +79,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 69%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
+  background-color: #9df;
+  box-shadow: 0 5px 6px 2px #fff;
 }
 
 .logo {
@@ -98,8 +102,12 @@ nav {
 
 a {
   text-decoration: none;
-  color: #0000f0;
+  color: #fff;
   font-size: x-large;
+}
+
+a:hover {
+  background-color: rgb(9, 116, 166);
 }
 
 .calculator-page {
